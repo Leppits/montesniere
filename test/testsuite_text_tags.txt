@@ -1,19 +1,19 @@
 P: Ein Keks wird von einem Schaf gegessen.
-1       Ein     ein     DET     ART     _       2       NK      _       _
-2       Keks    keks    NOUN    NN      _       3       SB      _       _
-3       wird    werden  VERB    VAFIN   _       0       --      _       _
-4       von     von     ADP     APPR    _       7       SBP     _       _
-5       einem   ein     DET     ART     _       6       NK      _       _
-6       Schaf   schaf   NOUN    NN      _       4       NK      _       _
-7       gegessen        gessen  VERB    VVPP    _       3       OC      _       _
-8       .       --      .       $.      _       3       --      _       _
+1       Ein       ein     DET     ART     _       2       NK      _       _
+2       Keks      keks    NOUN    NN      _       3       SB      _       _
+3       wird      werden  VERB    VAFIN   _       0       --      _       _
+4       von       von     ADP     APPR    _       7       SBP     _       _
+5       einem     ein     DET     ART     _       6       NK      _       _
+6       Schaf     schaf   NOUN    NN      _       4       NK      _       _
+7       gegessen  gessen  VERB    VVPP    _       3       OC      _       _
+8       .         --      .       $.      _       3       --      _       _
 
 H: Ein Keks wird gegessen.
-1       Ein     ein     DET     ART     _       2       NK      _       _
-2       Keks    keks    NOUN    NN      _       3       SB      _       _
-3       wird    werden  VERB    VAFIN   _       0       --      _       _
-4       gegessen        gessen  VERB    VVPP    _       3       OC      _       _
-5       .       --      .       $.      _       3       --      _       _
+1       Ein       ein     DET     ART     _       2       NK      _       _
+2       Keks      keks    NOUN    NN      _       3       SB      _       _
+3       wird      werden  VERB    VAFIN   _       0       --      _       _
+4       gegessen  gessen  VERB    VVPP    _       3       OC      _       _
+5       .         --      .       $.      _       3       --      _       _
 
 answer: True
 
@@ -69,7 +69,7 @@ P: Ein Schaf isst einen Keks.
 1       Ein     ein     DET     ART     _       2       NK      _       _
 2       Schaf   schaf   NOUN    NN      _       3       SB      _       _
 3       isst    issen   VERB    VVFIN   _       0       --      _       _
-4       einen     ein     DET     ART     _       5       NK      _       _
+4       einen   ein     DET     ART     _       5       NK      _       _
 5       Keks    keks    NOUN    NN      _       3       OA      _       _
 6       .       --      .       $.      _       3       --      _       _
 
@@ -202,12 +202,12 @@ answer: True
 
 
 P: Shawn schläft und Fluffy bellt.
-1       Shawn   shawn   NOUN    NE      _       2       SB      _       _
-2       schläft schlafen        VERB    VVFIN   _       0       --      _       _
-3       und     und     CONJ    KON     _       2       CD      _       _
-4       Fluffy  fluffy  NOUN    NE      _       5       SB      _       _
-5       bellt   bellen  VERB    VVFIN   _       3       CJ      _       _
-6       .       --      .       $.      _       2       --      _       _
+1       Shawn   shawn     NOUN    NE      _       2       SB      _       _
+2       schläft schlafen  VERB    VVFIN   _       0       --      _       _
+3       und     und       CONJ    KON     _       2       CD      _       _
+4       Fluffy  fluffy    NOUN    NE      _       5       SB      _       _
+5       bellt   bellen    VERB    VVFIN   _       3       CJ      _       _
+6       .       --        .       $.      _       2       --      _       _
 
 H: Fluffy bellt nicht.
 1       Fluffy  fluffy  NOUN    NE      _       2       SB      _       _
@@ -242,45 +242,45 @@ answer: True
 
 
 P: Jedes Schaf hat Gras gefressen.
-1       Jedes   jeder   PRON    PIAT    _       2       NK      _       _
-2       Schaf   schaf   NOUN    NN      _       3       SB      _       _
-3       hat     haben   VERB    VAFIN   _       0       --      _       _
-4       Gras    gras    NOUN    NN      _       5       OA      _       _
-5       gefressen       fressen VERB    VVPP    _       3       OC      _       _
-6       .       --      .       $.      _       3       --      _       _
+1       Jedes       jeder   PRON    PIAT    _       2       NK      _       _
+2       Schaf       schaf   NOUN    NN      _       3       SB      _       _
+3       hat         haben   VERB    VAFIN   _       0       --      _       _
+4       Gras        gras    NOUN    NN      _       5       OA      _       _
+5       gefressen   fressen VERB    VVPP    _       3       OC      _       _
+6       .           --      .       $.      _       3       --      _       _
 
 H: Jedes Schaf hat gefressen.
-1       Jedes   jeder   PRON    PIAT    _       2       NK      _       _
-2       Schaf   schaf   NOUN    NN      _       3       SB      _       _
-3       hat     haben   VERB    VAFIN   _       0       --      _       _
-4       gefressen       fressen VERB    VVPP    _       3       OC      _       _
-5       .       --      .       $.      _       3       --      _       _
+1       Jedes       jeder   PRON    PIAT    _       2       NK      _       _
+2       Schaf       schaf   NOUN    NN      _       3       SB      _       _
+3       hat         haben   VERB    VAFIN   _       0       --      _       _
+4       gefressen   fressen VERB    VVPP    _       3       OC      _       _
+5       .           --      .       $.      _       3       --      _       _
 
 answer: True
 
 
 P: Jedes Schaf hat Gras gefressen und jeder Wolf hat am Fluss getrunken.
-1       Jedes   jeder   PRON    PIAT    _       2       NK      _       _
-2       Schaf   schaf   NOUN    NN      _       3       SB      _       _
-3       hat     haben   VERB    VAFIN   _       0       --      _       _
-4       Gras    gras    NOUN    NN      _       5       OA      _       _
-5       gefressen       fressen VERB    VVPP    _       3       OC      _       _
-6       und     und     CONJ    KON     _       5       CD      _       _
-7       jeder   jeder   PRON    PIAT    _       8       NK      _       _
-8       Wolf    wolf    NOUN    NN      _       9       SB      _       _
-9       hat     haben   VERB    VAFIN   _       6       CJ      _       _
-10      am      an      ADP     APPRART _       12      MO      _       _
-11      Fluss   fluß    NOUN    NN      _       10      NK      _       _
-12      getrunken       trinken VERB    VVPP    _       9       OC      _       _
-13      .       --      .       $.      _       3       --      _       _
+1       Jedes       jeder   PRON    PIAT    _       2       NK      _       _
+2       Schaf       schaf   NOUN    NN      _       3       SB      _       _
+3       hat         haben   VERB    VAFIN   _       0       --      _       _
+4       Gras        gras    NOUN    NN      _       5       OA      _       _
+5       gefressen   fressen VERB    VVPP    _       3       OC      _       _
+6       und         und     CONJ    KON     _       5       CD      _       _
+7       jeder       jeder   PRON    PIAT    _       8       NK      _       _
+8       Wolf        wolf    NOUN    NN      _       9       SB      _       _
+9       hat         haben   VERB    VAFIN   _       6       CJ      _       _
+10      am          an      ADP     APPRART _       12      MO      _       _
+11      Fluss       fluß    NOUN    NN      _       10      NK      _       _
+12      getrunken   trinken VERB    VVPP    _       9       OC      _       _
+13      .           --      .       $.      _       3       --      _       _
 
 H: Jedes Schaf hat Gras gefressen.
-1       Jedes   jeder   PRON    PIAT    _       2       NK      _       _
-2       Schaf   schaf   NOUN    NN      _       3       SB      _       _
-3       hat     haben   VERB    VAFIN   _       0       --      _       _
-4       Gras    gras    NOUN    NN      _       5       OA      _       _
-5       gefressen       fressen VERB    VVPP    _       3       OC      _       _
-6       .       --      .       $.      _       3       --      _       _
+1       Jedes       jeder   PRON    PIAT    _       2       NK      _       _
+2       Schaf       schaf   NOUN    NN      _       3       SB      _       _
+3       hat         haben   VERB    VAFIN   _       0       --      _       _
+4       Gras        gras    NOUN    NN      _       5       OA      _       _
+5       gefressen   fressen VERB    VVPP    _       3       OC      _       _
+6       .           --      .       $.      _       3       --      _       _
 
 answer: True
 
@@ -305,69 +305,69 @@ answer: False
 
 
 P: Shawn versteckt sich hinter Fluffy.
-1       Shawn   shawn   NOUN    NE      _       2       SB      _       _
-2       versteckt       verstecken      VERB    VVFIN   _       0       --      _       _
-3       sich    sich    PRON    PRF     _       2       OA      _       _
-4       hinter  hinter  ADP     APPR    _       2       MO      _       _
-5       Fluffy  fluffy  NOUN    NE      _       4       NK      _       _
-6       .       --      .       $.      _       2       --      _       _
+1       Shawn       shawn       NOUN    NE      _       2       SB      _       _
+2       versteckt   verstecken  VERB    VVFIN   _       0       --      _       _
+3       sich        sich        PRON    PRF     _       2       OA      _       _
+4       hinter      hinter      ADP     APPR    _       2       MO      _       _
+5       Fluffy      fluffy      NOUN    NE      _       4       NK      _       _
+6       .           --          .       $.      _       2       --      _       _
 
 H: Fluffy versteckt sich hinter Shawn.
-1       Fluffy  fluffy  NOUN    NN      _       2       SB      _       _
-2       versteckt       verstecken      VERB    VVFIN   _       0       --      _       _
-3       sich    sich    PRON    PRF     _       2       OA      _       _
-4       hinter  hinter  ADP     APPR    _       2       MO      _       _
-5       Shawn   shawn   NOUN    NE      _       4       NK      _       _
-6       .       --      .       $.      _       2       --      _       _
+1       Fluffy      fluffy      NOUN    NN      _       2       SB      _       _
+2       versteckt   verstecken  VERB    VVFIN   _       0       --      _       _
+3       sich        sich        PRON    PRF     _       2       OA      _       _
+4       hinter      hinter      ADP     APPR    _       2       MO      _       _
+5       Shawn       shawn       NOUN    NE      _       4       NK      _       _
+6       .           --          .       $.      _       2       --      _       _
 
 answer: False
 
 
 P: Shawn schläft seit gestern.
-1       Shawn   shawn   NOUN    NE      _       2       SB      _       _
-2       schläft schlafen        VERB    VVFIN   _       0       --      _       _
-3       seit    seit    ADP     APPR    _       2       MO      _       _
-4       gestern gestern ADV     ADV     _       3       NK      _       _
-5       .       --      .       $.      _       2       --      _       _
+1       Shawn   shawn     NOUN    NE      _       2       SB      _       _
+2       schläft schlafen  VERB    VVFIN   _       0       --      _       _
+3       seit    seit      ADP     APPR    _       2       MO      _       _
+4       gestern gestern   ADV     ADV     _       3       NK      _       _
+5       .       --        .       $.      _       2       --      _       _
 
 H: Shawn schläft.
-1       Shawn   shawn   NOUN    NE      _       2       SB      _       _
-2       schläft schlafen        VERB    VVFIN   _       0       --      _       _
-3       .       --      .       $.      _       2       --      _       _
+1       Shawn   shawn     NOUN    NE      _       2       SB      _       _
+2       schläft schlafen  VERB    VVFIN   _       0       --      _       _
+3       .       --        .       $.      _       2       --      _       _
 
 answer: True
 
 
 P: Eine Furie in einem blutigen Kleid bewacht einen Schlund.
-1       Eine    ein     DET     ART     _       2       NK      _       _
-2       Furie   furie   NOUN    NN      _       0       --      _       _
-3       in      in      ADP     APPR    _       2       MNR     _       _
-4       einem   ein     DET     ART     _       6       NK      _       _
-5       blutigen        blutig  ADJ     ADJA    _       6       NK      _       _
-6       Kleid   kleid   NOUN    NN      _       3       NK      _       _
-7       bewacht bewacht ADJ     ADJD    _       2       MNR     _       _
-8       einen   ein     DET     ART     _       9       NK      _       _
-9       Schlund schlund NOUN    NN      _       2       AG      _       _
-10      .       --      .       $.      _       2       --      _       _
+1       Eine      ein     DET     ART     _       2       NK      _       _
+2       Furie     furie   NOUN    NN      _       0       --      _       _
+3       in        in      ADP     APPR    _       2       MNR     _       _
+4       einem     ein     DET     ART     _       6       NK      _       _
+5       blutigen  blutig  ADJ     ADJA    _       6       NK      _       _
+6       Kleid     kleid   NOUN    NN      _       3       NK      _       _
+7       bewacht   bewacht ADJ     ADJD    _       2       MNR     _       _
+8       einen     ein     DET     ART     _       9       NK      _       _
+9       Schlund   schlund NOUN    NN      _       2       AG      _       _
+10      .         --      .       $.      _       2       --      _       _
 
 H: Eine Furie bewacht einen Schlund.
-1       Eine    ein     DET     ART     _       2       NK      _       _
-2       Furie   furie   NOUN    NN      _       3       SB      _       _
-3       bewacht bewachen        VERB    VVFIN   _       0       --      _       _
-4       einen   ein     DET     ART     _       5       NK      _       _
-5       Schlund schlund NOUN    NN      _       3       OA      _       _
-6       .       --      .       $.      _       3       --      _       _
+1       Eine    ein       DET     ART     _       2       NK      _       _
+2       Furie   furie     NOUN    NN      _       3       SB      _       _
+3       bewacht bewachen  VERB    VVFIN   _       0       --      _       _
+4       einen   ein       DET     ART     _       5       NK      _       _
+5       Schlund schlund   NOUN    NN      _       3       OA      _       _
+6       .       --        .       $.      _       3       --      _       _
 
 answer: True
 
 
 P: Ein Haus in Russland brennt.
-1       Ein     ein     DET     ART     _       2       NK      _       _
-2       Haus    haus    NOUN    NN      _       5       SB      _       _
-3       in      in      ADP     APPR    _       2       MNR     _       _
-4       Russland        russland        NOUN    NE      _       3       NK      _       _
-5       brennt  brennen VERB    VVFIN   _       0       --      _       _
-6       .       --      .       $.      _       5       --      _       _
+1       Ein       ein       DET       ART     _       2       NK      _       _
+2       Haus      haus      NOUN      NN      _       5       SB      _       _
+3       in        in        ADP       APPR    _       2       MNR     _       _
+4       Russland  russland  NOUN      NE      _       3       NK      _       _
+5       brennt    brennen   VERB      VVFIN   _       0       --      _       _
+6       .         --        .         $.      _       5       --      _       _
 
 H: Ein Haus brennt.
 1       Ein     ein     DET     ART     _       2       NK      _       _
@@ -395,13 +395,13 @@ answer: True
 
 
 P: Kein Mensch zahlt gerne eine Rechnung.
-1       Kein  kein    ADJ     ADJA    _       2       NK      _       _
-2       Mensch  mensch  NOUN    NN      _       3       SB      _       _
-3       zahlt   zahlen  VERB    VVFIN   _       0       --      _       _
-4       gerne   gerne   ADV     ADV     _       3       MO      _       _
-5       eine    ein     DET     ART     _       6       NK      _       _
-6       Rechnung        rechnung        NOUN    NN      _       3       OA      _       _
-7       .       --      .       $.      _       3       --      _       _
+1       Kein      kein      ADJ     ADJA    _       2       NK      _       _
+2       Mensch    mensch    NOUN    NN      _       3       SB      _       _
+3       zahlt     zahlen    VERB    VVFIN   _       0       --      _       _
+4       gerne     gerne     ADV     ADV     _       3       MO      _       _
+5       eine      ein       DET     ART     _       6       NK      _       _
+6       Rechnung  rechnung  NOUN    NN      _       3       OA      _       _
+7       .         --        .       $.      _       3       --      _       _
 
 P: Paul ist ein Mensch.
 1       Paul    paul    NOUN    NE      _       2       SB      _       _
@@ -411,22 +411,22 @@ P: Paul ist ein Mensch.
 5       .       --      .       $.      _       2       --      _       _
 
 H: Paul zahlt Rechnungen gerne.
-1       Paul    paul    NOUN    NE      _       2       SB      _       _
-2       zahlt   zahlen  VERB    VVFIN   _       0       --      _       _
-3       Rechnungen      rechnung        NOUN    NN      _       2       OA      _       _
-4       gerne   gerne   ADV     ADV     _       2       MO      _       _
-5       .       --      .       $.      _       2       --      _       _
+1       Paul        paul    NOUN    NE      _       2       SB      _       _
+2       zahlt       zahlen  VERB    VVFIN   _       0       --      _       _
+3       Rechnungen  rechnung        NOUN    NN      _       2       OA      _       _
+4       gerne       gerne   ADV     ADV     _       2       MO      _       _
+5       .           --      .       $.      _       2       --      _       _
 
 answer: False
 
 
 P: Ein Lehrer lehrt Maria ein Musikstück.
-1       Ein     ein     DET     ART     _       2       NK      _       _
-2       Lehrer  lehrer  NOUN    NN      _       3       SB      _       _
-3       lehrt   lehren  VERB    VVFIN   _       0       --      _       _
-4       Maria   maria   NOUN    NE      _       3       SB      _       _
-5       ein     ein     DET     ART     _       6       NK      _       _
-6       Musikstück      musikstück      NOUN    NN      _       3       OA      _       _
+1       Ein         ein         DET     ART     _       2       NK      _       _
+2       Lehrer      lehrer      NOUN    NN      _       3       SB      _       _
+3       lehrt       lehren      VERB    VVFIN   _       0       --      _       _
+4       Maria       maria       NOUN    NE      _       3       SB      _       _
+5       ein         ein         DET     ART     _       6       NK      _       _
+6       Musikstück  musikstück  NOUN    NN      _       3       OA      _       _
 7       .       --      .       $.      _       3       --      _       _
 
 H: Ein Lehrer lehrt.
@@ -471,59 +471,59 @@ P: Alle Gurken leben und tanzen in Wäldern.
 8       .       --      .       $.      _       3       --      _       _
 
 P: Minigurken sind Gurken.
-1       Minigurken      minigurke       NOUN    NN      _       2       SB      _       _
-2       sind    sein    VERB    VAFIN   _       0       --      _       _
-3       Gurken  gurke   NOUN    NN      _       2       PD      _       _
-4       .       --      .       $.      _       2       --      _       _
+1       Minigurken  minigurke   NOUN    NN      _       2       SB      _       _
+2       sind        sein        VERB    VAFIN   _       0       --      _       _
+3       Gurken      gurke       NOUN    NN      _       2       PD      _       _
+4       .           --          .       $.      _       2       --      _       _
 
 H: Minigurken tanzen.
-1       Minigurken      minigurke       NOUN    NN      _       2       OA      _       _
-2       tanzen  tanzen  VERB    VVINF   _       0       --      _       _
-3       .       --      .       $.      _       2       --      _       _
+1       Minigurken  minigurke   NOUN    NN      _       2       OA      _       _
+2       tanzen      tanzen      VERB    VVINF   _       0       --      _       _
+3       .           --          .       $.      _       2       --      _       _
 
 answer: True
 
 
 P: Ein Hase schenkt einem Igel eine Blume und Kuchen.
-1       Ein     ein     DET     ART     _       2       NK      _       _
-2       Hase    hase    NOUN    NN      _       3       SB      _       _
-3       schenkt schenken        VERB    VVFIN   _       0       --      _       _
-4       einem   ein     DET     ART     _       5       NK      _       _
-5       Igel    igel    NOUN    NN      _       3       DA      _       _
-6       eine    ein     DET     ART     _       7       NK      _       _
-7       Blume   blume   NOUN    NN      _       3       OA      _       _
-8       und     und     CONJ    KON     _       7       CD      _       _
-9       Kuchen  kuchen  NOUN    NN      _       8       CJ      _       _
-10      .       --      .       $.      _       3       --      _       _
+1       Ein     ein       DET     ART     _       2       NK      _       _
+2       Hase    hase      NOUN    NN      _       3       SB      _       _
+3       schenkt schenken  VERB    VVFIN   _       0       --      _       _
+4       einem   ein       DET     ART     _       5       NK      _       _
+5       Igel    igel      NOUN    NN      _       3       DA      _       _
+6       eine    ein       DET     ART     _       7       NK      _       _
+7       Blume   blume     NOUN    NN      _       3       OA      _       _
+8       und     und       CONJ    KON     _       7       CD      _       _
+9       Kuchen  kuchen    NOUN    NN      _       8       CJ      _       _
+10      .       --        .       $.      _       3       --      _       _
 
 H: Ein Hase schenkt einem Igel eine Blume.
-1       Ein     ein     DET     ART     _       2       NK      _       _
-2       Hase    hase    NOUN    NN      _       3       SB      _       _
-3       schenkt schenken        VERB    VVFIN   _       0       --      _       _
-4       einem   ein     DET     ART     _       5       NK      _       _
-5       Igel    igel    NOUN    NN      _       3       DA      _       _
-6       eine    ein     DET     ART     _       7       NK      _       _
-7       Blume   blume   NOUN    NN      _       3       OA      _       _
-8       .       --      .       $.      _       3       --      _       _
+1       Ein     ein       DET     ART     _       2       NK      _       _
+2       Hase    hase      NOUN    NN      _       3       SB      _       _
+3       schenkt schenken  VERB    VVFIN   _       0       --      _       _
+4       einem   ein       DET     ART     _       5       NK      _       _
+5       Igel    igel      NOUN    NN      _       3       DA      _       _
+6       eine    ein       DET     ART     _       7       NK      _       _
+7       Blume   blume     NOUN    NN      _       3       OA      _       _
+8       .       --        .       $.      _       3       --      _       _
 
 answer: True
 
 
 P: Eine schnelle Jägerin erzürnt Plexippos.
-1       Eine    ein     DET     ART     _       3       NK      _       _
-2       schnelle        schnell ADJ     ADJA    _       3       NK      _       _
-3       Jägerin jägerin NOUN    NN      _       4       SB      _       _
-4       erzürnt erzürnen        VERB    VVFIN   _       0       --      _       _
-5       Plexippos       plexippos       NOUN    NN      _       4       OA      _       _
-6       .       --      .       $.      _       4       --      _       _
+1       Eine      ein       DET     ART     _       3       NK      _       _
+2       schnelle  schnell   ADJ     ADJA    _       3       NK      _       _
+3       Jägerin   jägerin   NOUN    NN      _       4       SB      _       _
+4       erzürnt   erzürnen  VERB    VVFIN   _       0       --      _       _
+5       Plexippos plexippos NOUN    NN      _       4       OA      _       _
+6       .         --        .       $.      _       4       --      _       _
 
 H: Es gibt eine schnelle Jägerin.
-1       Es      es      PRON    PPER    _       2       EP      _       _
-2       gibt    geben   VERB    VVFIN   _       0       --      _       _
-3       eine    ein     DET     ART     _       5       NK      _       _
-4       schnelle        schnell ADJ     ADJA    _       5       NK      _       _
-5       Jägerin jägerin NOUN    NN      _       2       OA      _       _
-6       .       --      .       $.      _       2       --      _       _
+1       Es        es      PRON    PPER    _       2       EP      _       _
+2       gibt      geben   VERB    VVFIN   _       0       --      _       _
+3       eine      ein     DET     ART     _       5       NK      _       _
+4       schnelle  schnell ADJ     ADJA    _       5       NK      _       _
+5       Jägerin   jägerin NOUN    NN      _       2       OA      _       _
+6       .         --      .       $.      _       2       --      _       _
 
 answer: True
 
@@ -535,52 +535,52 @@ P: Sirenen haben Beine.
 4       .       --      .       $.      _       2       --      _       _
 
 H: Sirenen haben ein schuppiges Bein.
-1       Sirenen sirene  NOUN    NN      _       2       SB      _       _
-2       haben   haben   VERB    VAFIN   _       0       --      _       _
-3       ein     ein     DET     ART     _       5       NK      _       _
-4       schuppiges      schuppig        ADJ     ADJA    _       5       NK      _       _
-5       Bein    bein    NOUN    NN      _       2       OA      _       _
-6       .       --      .       $.      _       2       --      _       _
+1       Sirenen     sirene    NOUN    NN      _       2       SB      _       _
+2       haben       haben     VERB    VAFIN   _       0       --      _       _
+3       ein         ein       DET     ART     _       5       NK      _       _
+4       schuppiges  schuppig  ADJ     ADJA    _       5       NK      _       _
+5       Bein        bein      NOUN    NN      _       2       OA      _       _
+6       .           --        .       $.      _       2       --      _       _
 
 answer: unknown
 
 
 P: Donald genießt einen schönen Tag in einer weichen Hängematte.
-1       Donald  donald  NOUN    NE      _       2       SB      _       _
-2       genießt genießen        VERB    VVFIN   _       0       --      _       _
-3       einen   ein     DET     ART     _       5       NK      _       _
-4       schönen schön   ADJ     ADJA    _       5       NK      _       _
-5       Tag     tag     NOUN    NN      _       2       OA      _       _
-6       in      in      ADP     APPR    _       2       MO      _       _
-7       einer   ein     DET     ART     _       9       NK      _       _
-8       weichen weich   ADJ     ADJA    _       9       NK      _       _
-9       Hängematte      hängematte      NOUN    NN      _       6       NK      _       _
-10      .       --      .       $.      _       2       --      _       _
+1       Donald      donald      NOUN    NE      _       2       SB      _       _
+2       genießt     genießen    VERB    VVFIN   _       0       --      _       _
+3       einen       ein         DET     ART     _       5       NK      _       _
+4       schönen     schön       ADJ     ADJA    _       5       NK      _       _
+5       Tag         tag         NOUN    NN      _       2       OA      _       _
+6       in          in          ADP     APPR    _       2       MO      _       _
+7       einer       ein         DET     ART     _       9       NK      _       _
+8       weichen     weich       ADJ     ADJA    _       9       NK      _       _
+9       Hängematte  hängematte  NOUN    NN      _       6       NK      _       _
+10      .           --          .       $.      _       2       --      _       _
 
 H: Donald liegt in einer weichen Hängematte.
-1       Donald  donald  NOUN    NE      _       2       SB      _       _
-2       liegt   liegen  VERB    VVFIN   _       0       --      _       _
-3       in      in      ADP     APPR    _       2       MO      _       _
-4       einer   ein     DET     ART     _       6       NK      _       _
-5       weichen weich   ADJ     ADJA    _       6       NK      _       _
-6       Hängematte      hängematte      NOUN    NN      _       3       NK      _       _
-7       .       --      .       $.      _       2       --      _       _
+1       Donald      donald      NOUN    NE      _       2       SB      _       _
+2       liegt       liegen      VERB    VVFIN   _       0       --      _       _
+3       in          in          ADP     APPR    _       2       MO      _       _
+4       einer       ein         DET     ART     _       6       NK      _       _
+5       weichen     weich       ADJ     ADJA    _       6       NK      _       _
+6       Hängematte  hängematte  NOUN    NN      _       3       NK      _       _
+7       .           --          .       $.      _       2       --      _       _
 
 answer: True
 
 
 P: In Russland brennt ein Haus.
-1       In      in      ADP     APPR    _       3       MO      _       _
-2       Russland        russland        NOUN    NE      _       1       NK      _       _
-3       brennt  brennen VERB    VVFIN   _       0       --      _       _
-4       ein     ein     DET     ART     _       5       NK      _       _
-5       Haus    haus    NOUN    NN      _       3       OA      _       _
-6       .       --      .       $.      _       3       --      _       _
+1       In        in        ADP     APPR    _       3       MO      _       _
+2       Russland  russland  NOUN    NE      _       1       NK      _       _
+3       brennt    brennen   VERB    VVFIN   _       0       --      _       _
+4       ein       ein       DET     ART     _       5       NK      _       _
+5       Haus      haus      NOUN    NN      _       3       OA      _       _
+6       .         --        .       $.      _       3       --      _       _
 
 H: Russland brennt.
-1       Russland        russland        NOUN    NE      _       2       SB      _       _
-2       brennt  brennen VERB    VVFIN   _       0       --      _       _
-3       .       --      .       $.      _       2       --      _       _
+1       Russland  russland  NOUN    NE      _       2       SB      _       _
+2       brennt    brennen   VERB    VVFIN   _       0       --      _       _
+3       .         --        .       $.      _       2       --      _       _
 
 answer: False
 
@@ -634,11 +634,11 @@ answer: True
 
 
 P: Japaner lieben klassische Musik.
-1       Japaner japaner NOUN    NN      _       2       SB      _       _
-2       lieben  lieben  VERB    VVFIN   _       0       --      _       _
-3       klassische      klassisch       ADJ     ADJA    _       4       NK      _       _
-4       Musik   musik   NOUN    NN      _       2       OA      _       _
-5       .       --      .       $.      _       2       --      _       _
+1       Japaner     japaner   NOUN    NN      _       2       SB      _       _
+2       lieben      lieben    VERB    VVFIN   _       0       --      _       _
+3       klassische  klassisch ADJ     ADJA    _       4       NK      _       _
+4       Musik       musik     NOUN    NN      _       2       OA      _       _
+5       .           --        .       $.      _       2       --      _       _
 
 H: Japaner lieben Musik.
 1       Japaner japaner NOUN    NN      _       2       SB      _       _
@@ -650,47 +650,47 @@ answer: True
 
 
 P: Maria schenkt Paul eine Katze.
-1       Maria   maria   NOUN    NE      _       2       SB      _       _
-2       schenkt schenken        VERB    VVFIN   _       0       --      _       _
-3       Paul    paul    NOUN    NE      _       2       DA      _       _
-4       eine    ein     DET     ART     _       5       NK      _       _
-5       Katze   katze   NOUN    NN      _       2       OA      _       _
-6       .       --      .       $.      _       2       --      _       _
+1       Maria   maria     NOUN    NE      _       2       SB      _       _
+2       schenkt schenken  VERB    VVFIN   _       0       --      _       _
+3       Paul    paul      NOUN    NE      _       2       DA      _       _
+4       eine    ein       DET     ART     _       5       NK      _       _
+5       Katze   katze     NOUN    NN      _       2       OA      _       _
+6       .       --        .       $.      _       2       --      _       _
 
 P: Katzen und Löwen sind Raubkatzen.
-1       Katzen  katze   NOUN    NN      _       4       SB      _       _
-2       und     und     CONJ    KON     _       1       CD      _       _
-3       Löwen   löwe    NOUN    NN      _       2       CJ      _       _
-4       sind    sein    VERB    VAFIN   _       0       --      _       _
-5       Raubkatzen      raubkatze       NOUN    NN      _       4       PD      _       _
-6       .       --      .       $.      _       4       --      _       _
+1       Katzen      katze     NOUN    NN      _       4       SB      _       _
+2       und         und       CONJ    KON     _       1       CD      _       _
+3       Löwen       löwe      NOUN    NN      _       2       CJ      _       _
+4       sind        sein      VERB    VAFIN   _       0       --      _       _
+5       Raubkatzen  raubkatze NOUN    NN      _       4       PD      _       _
+6       .           --        .       $.      _       4       --      _       _
 
 H: Einen Löwen schenkt Maria Paul.
-1       Einen   ein     DET     ART     _       2       NK      _       _
-2       Löwen   löwe    NOUN    NN      _       3       OA      _       _
-3       schenkt schenken        VERB    VVFIN   _       0       --      _       _
-4       Maria   maria   NOUN    NE      _       5       PNC     _       _
-5       Paul    paul    NOUN    NE      _       3       SB      _       _
-6       .       --      .       $.      _       3       --      _       _
+1       Einen   ein       DET     ART     _       2       NK      _       _
+2       Löwen   löwe      NOUN    NN      _       3       OA      _       _
+3       schenkt schenken  VERB    VVFIN   _       0       --      _       _
+4       Maria   maria     NOUN    NE      _       5       PNC     _       _
+5       Paul    paul      NOUN    NE      _       3       SB      _       _
+6       .       --        .       $.      _       3       --      _       _
 
 answer: False
 
 
 P: Rebekka und Simon sind Brillenträger.
-1       Rebekka rebekka NOUN    NE      _       4       SB      _       _
-2       und     und     CONJ    KON     _       1       CD      _       _
-3       Simon   simon   NOUN    NE      _       2       CJ      _       _
-4       sind    sein    VERB    VAFIN   _       0       --      _       _
-5       Brillenträger   brillenträger   NOUN    NN      _       4       PD      _       _
-6       .       --      .       $.      _       4       --      _       _
+1       Rebekka       rebekka         NOUN    NE      _       4       SB      _       _
+2       und           und             CONJ    KON     _       1       CD      _       _
+3       Simon         simon           NOUN    NE      _       2       CJ      _       _
+4       sind          sein            VERB    VAFIN   _       0       --      _       _
+5       Brillenträger brillenträger   NOUN    NN      _       4       PD      _       _
+6       .             --              .       $.      _       4       --      _       _
 
 P: Rebekka und Simon sind Menschen.
-1       Rebekka rebekka NOUN    NE      _       4       SB      _       _
-2       und     und     CONJ    KON     _       1       CD      _       _
-3       Simon   simon   NOUN    NE      _       2       CJ      _       _
-4       sind    sein    VERB    VAFIN   _       0       --      _       _
-5       Menschen        mensch  NOUN    NN      _       4       PD      _       _
-6       .       --      .       $.      _       4       --      _       _
+1       Rebekka   rebekka NOUN    NE      _       4       SB      _       _
+2       und       und     CONJ    KON     _       1       CD      _       _
+3       Simon     simon   NOUN    NE      _       2       CJ      _       _
+4       sind      sein    VERB    VAFIN   _       0       --      _       _
+5       Menschen  mensch  NOUN    NN      _       4       PD      _       _
+6       .         --      .       $.      _       4       --      _       _
 
 H: Jeder Mensch trägt eine Brille.
 1       Jeder   jeder   PRON    PIAT    _       2       NK      _       _
@@ -704,11 +704,11 @@ answer: False
 
 
 P: Bello ist im Fellwechsel.
-1       Bello   bello   NOUN    NE      _       2       SB      _       _
-2       ist     sein    VERB    VAFIN   _       0       --      _       _
-3       im      in      ADP     APPRART _       2       MO      _       _
-4       Fellwechsel     fellwechsel     NOUN    NN      _       3       NK      _       _
-5       .       --      .       $.      _       2       --      _       _
+1       Bello         bello         NOUN    NE      _       2       SB      _       _
+2       ist           sein          VERB    VAFIN   _       0       --      _       _
+3       im            in            ADP     APPRART _       2       MO      _       _
+4       Fellwechsel   fellwechsel   NOUN    NN      _       3       NK      _       _
+5       .             --            .       $.      _       2       --      _       _
 
 P: Bello ist ein Hund.
 1       Bello   bello   NOUN    NE      _       2       SB      _       _
@@ -718,10 +718,10 @@ P: Bello ist ein Hund.
 5       .       --      .       $.      _       2       --      _       _
 
 H: Hunde haben Fellwechsel.
-1       Hunde   hund    NOUN    NN      _       2       SB      _       _
-2       haben   haben   VERB    VAFIN   _       0       --      _       _
-3       Fellwechsel     fellwechsel     NOUN    NN      _       2       OA      _       _
-4       .       --      .       $.      _       2       --      _       _
+1       Hunde       hund        NOUN    NN      _       2       SB      _       _
+2       haben       haben       VERB    VAFIN   _       0       --      _       _
+3       Fellwechsel fellwechsel NOUN    NN      _       2       OA      _       _
+4       .           --          .       $.      _       2       --      _       _
 
 answer: True
 
@@ -747,45 +747,45 @@ answer: True
 
 
 P: Maria gibt Tim eine alte Taschenuhr.
-1       Maria   maria   NOUN    NE      _       2       SB      _       _
-2       gibt    geben   VERB    VVFIN   _       0       --      _       _
-3       Tim     tim     NOUN    NE      _       2       SB      _       _
-4       eine    ein     DET     ART     _       6       NK      _       _
-5       alte    alt     ADJ     ADJA    _       6       NK      _       _
-6       Taschenuhr      taschenuhr      NOUN    NN      _       2       OA      _       _
-7       .       --      .       $.      _       2       --      _       _
+1       Maria       maria       NOUN    NE      _       2       SB      _       _
+2       gibt        geben       VERB    VVFIN   _       0       --      _       _
+3       Tim         tim         NOUN    NE      _       2       SB      _       _
+4       eine        ein         DET     ART     _       6       NK      _       _
+5       alte        alt         ADJ     ADJA    _       6       NK      _       _
+6       Taschenuhr  taschenuhr  NOUN    NN      _       2       OA      _       _
+7       .           --          .       $.      _       2       --      _       _
 
 H: Maria gibt Tim eine neue Taschenuhr.
-1       Maria   maria   NOUN    NE      _       2       SB      _       _
-2       gibt    geben   VERB    VVFIN   _       0       --      _       _
-3       Tim     tim     NOUN    NE      _       2       SB      _       _
-4       eine    ein     DET     ART     _       6       NK      _       _
-5       neue    neu     ADJ     ADJA    _       6       NK      _       _
-6       Taschenuhr      taschenuhr      NOUN    NN      _       2       OA      _       _
-7       .       --      .       $.      _       2       --      _       _
+1       Maria       maria       NOUN    NE      _       2       SB      _       _
+2       gibt        geben       VERB    VVFIN   _       0       --      _       _
+3       Tim         tim         NOUN    NE      _       2       SB      _       _
+4       eine        ein         DET     ART     _       6       NK      _       _
+5       neue        neu         ADJ     ADJA    _       6       NK      _       _
+6       Taschenuhr  taschenuhr  NOUN    NN      _       2       OA      _       _
+7       .           --          .       $.      _       2       --      _       _
 
 answer: False
 
 
 P: Tim funkelt einen Kater auf der Tischdecke an.
-1       Tim     tim     NOUN    NE      _       2       SB      _       _
-2       funkelt funkeln VERB    VVFIN   _       0       --      _       _
-3       einen   einen     DET     ART     _       4       NK      _       _
-4       Kater   kater   NOUN    NN      _       2       OA      _       _
-5       auf     auf     ADP     APPR    _       2       MO      _       _
-6       der     der     DET     ART     _       7       NK      _       _
-7       Tischdecke      tischdecke      NOUN    NN      _       5       NK      _       _
-8       an      an      PRT     PTKVZ   _       2       SVP     _       _
-9       .       --      .       $.      _       2       --      _       _
+1       Tim         tim         NOUN    NE      _       2       SB      _       _
+2       funkelt     funkeln     VERB    VVFIN   _       0       --      _       _
+3       einen       einen       DET     ART     _       4       NK      _       _
+4       Kater       kater       NOUN    NN      _       2       OA      _       _
+5       auf         auf         ADP     APPR    _       2       MO      _       _
+6       der         der         DET     ART     _       7       NK      _       _
+7       Tischdecke  tischdecke  NOUN    NN      _       5       NK      _       _
+8       an          an          PRT     PTKVZ   _       2       SVP     _       _
+9       .           --          .       $.      _       2       --      _       _
 
 H: Ein Kater ist auf der Tischdecke.
-1       Ein     ein     DET     ART     _       2       NK      _       _
-2       Kater   kater   NOUN    NN      _       3       SB      _       _
-3       ist     sein    VERB    VAFIN   _       0       --      _       _
-4       auf     auf     ADP     APPR    _       3       MO      _       _
-5       der     der     DET     ART     _       6       NK      _       _
-6       Tischdecke      tischdecke      NOUN    NN      _       4       NK      _       _
-7       .       --      .       $.      _       3       --      _       _
+1       Ein         ein         DET     ART     _       2       NK      _       _
+2       Kater       kater       NOUN    NN      _       3       SB      _       _
+3       ist         sein        VERB    VAFIN   _       0       --      _       _
+4       auf         auf         ADP     APPR    _       3       MO      _       _
+5       der         der         DET     ART     _       6       NK      _       _
+6       Tischdecke  tischdecke  NOUN    NN      _       4       NK      _       _
+7       .           --          .       $.      _       3       --      _       _
 
 answer: True
 
@@ -818,12 +818,12 @@ answer: False
 
 
 P: Einige Menschen singen heute schlecht.
-1       Einige  einiger PRON    PIAT    _       2       NK      _       _
-2       Menschen        mensch  NOUN    NN      _       3       SB      _       _
-3       singen  singen  VERB    VVFIN   _       0       --      _       _
-4       heute   heute   ADV     ADV     _       3       MO      _       _
-5       schlecht        schlecht        ADJ     ADJD    _       3       MO      _       _
-6       .       --      .       $.      _       3       --      _       _
+1       Einige    einiger   PRON    PIAT    _       2       NK      _       _
+2       Menschen  mensch    NOUN    NN      _       3       SB      _       _
+3       singen    singen    VERB    VVFIN   _       0       --      _       _
+4       heute     heute     ADV     ADV     _       3       MO      _       _
+5       schlecht  schlecht  ADJ     ADJD    _       3       MO      _       _
+6       .         --        .       $.      _       3       --      _       _
 
 P: Peter ist ein Mensch.
 1       Peter   peter   NOUN    NE      _       2       SB      _       _
@@ -833,10 +833,10 @@ P: Peter ist ein Mensch.
 5       .       --      .       $.      _       2       --      _       _
 
 H: Peter singt schlecht.
-1       Peter   peter   NOUN    NE      _       2       SB      _       _
-2       singt   singen  VERB    VVFIN   _       0       --      _       _
-3       schlecht        schlecht        ADJ     ADJD    _       2       MO      _       _
-4       .       --      .       $.      _       2       --      _       _
+1       Peter     peter     NOUN    NE      _       2       SB      _       _
+2       singt     singen    VERB    VVFIN   _       0       --      _       _
+3       schlecht  schlecht  ADJ     ADJD    _       2       MO      _       _
+4       .         --        .       $.      _       2       --      _       _
 
 answer: False
 
