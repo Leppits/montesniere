@@ -33,9 +33,11 @@ Python 3.4
 
 NLTK 3.0
 
+CONLL06 File
+
 
 #### `montesniere_get_Semantics.sh`
-We recommend using our shell script in order to avoid dependency errors. Start it on
+We recommend using our shell script in order to avoid dependency errors. Start it from
 the command line by running `./montesniere_get_Semantics.sh test/conll/<filename>`.
 
 
@@ -158,8 +160,8 @@ Example rule:
 
 ### Test suite
 
- This test suite ist based on the English [FraCaS test suite](http://www-nlp.stanford.edu/~wcmac/downloads/).
-Both premises and an hypothesis are stored in the testsuite. Call `testFracas.py` from the commandline,
+ This test suite is based on the English [FraCaS test suite](http://www-nlp.stanford.edu/~wcmac/downloads/).
+Both premises and an hypothesis are stored in the testsuite. It's structure is similar to the FraCaS test suit (not yet including downward entailing). Call `testFracas.py` from the commandline,
 use `heuristic_rules.json` and `testsuite_text_tags.xml` as arguments. The number of failed and
 succesful tests is shown on the commandline.
 
