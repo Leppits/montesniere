@@ -1170,4 +1170,619 @@
   <a>yes</a>
 </problem>
 
+<problem>
+  id="40"
+  fracas_answer="yes">
+  <p idx="1">
+    Nicht ein Hund beißt Peter.
+  </p>
+  <p_conll idx="1">1       Nicht	nicht	    PRT	    PTKNEG	_	      3	      NG	    _	      _
+2	      ein	  ein	      DET	    ART	    _	      3	      NK	    _	      _
+3	      Hund	hund	    NOUN	  NN	    _	      4	      SB	    _	      _
+4	      beißt	beißen	  VERB	  VVFIN	  _	      0	      --	    _	      _
+5	      Peter	peter	    NOUN	  NE	    _	      4	      OA	    _	      _
+6	      .	    --	      .	      $.	    _	      4	      --	    _	      _
+  </p_conll>
+  </p_conll>
+  <p idx="2">
+    Bella ist ein Hund.
+  </p>
+    <p_conll idx="2">1       Bella   bella   NOUN    NE      _       2       SB      _       _
+2       ist     sein    VERB    VAFIN   _       0       --      _       _
+3       ein     ein     DET     ART     _       4       NK      _       _
+4       Hund    hund    NOUN    NN      _       2       PD      _       _
+5       .       --      .       $.      _       2       --      _       _
+</p_conll>
+  <h>
+    Bella beißt Peter nicht.
+  </h>
+  <h_conll>1       Bella   bella   NOUN    NE      _       2       SB      _       _
+2       beißt     beißen	  VERB	  VVFIN	  _	      0	      --	    _	      _
+3       Peter     peter	    NOUN	  NE	    _	      4	      OA	    _	      _
+4       nicht    nicht	    PRT	    PTKNEG	_	      3	      NG	    _	      _
+5       .       --      .       $.      _       2       --      _       _
+</h_conll>
+  <a>yes</a>
+</problem>
+
+<problem>
+  id="41"
+  fracas_answer="yes">
+  <p idx="1">
+    Große Pferde essen leckeres Futter.
+  </p>
+  <p_conll idx="1">
+  </p_conll>1	      Große	    groß	  ADJ	    ADJA	  _	      2	      NK	    _	      _
+2	      Pferde	  pferd	  NOUN	  NN	    _	      3	      SB	    _	      _
+3	      essen	    essen	  VERB	  VVFIN	  _	      0	      --	    _	      _
+4	      leckeres	lecker	ADJ	    ADJA	  _	      5	      NK	    _	      _
+5	      Futter	  futter	NOUN	  NN	    _	      3	      OA	    _	      _
+6	      .	        --	    .	      $.	    _	      3	      --	    _	      _
+  </p_conll>
+  <p idx="2">
+    .
+  </p>
+    <p_conll idx="2">
+    </p_conll>
+  <h>
+    .
+  </h>
+  <h_conll>
+</h_conll>
+  <a></a>
+</problem>
+
+<problem>
+  id="42"
+  fracas_answer="yes">
+  <p idx="1">
+    Heute badet eine Taube.
+  </p>
+  <p_conll idx="1">
+  </p_conll>1	      Heute	    heute	  ADV	    ADV	    _	      2	      MO	    _	      _
+2	      badet	    baden	  VERB	  VVFIN	  _	      0	      --	    _	      _
+3	      eine	    ein	    DET	    ART	    _	      4	      NK	    _	      _
+4	      Taube	    taube	  NOUN	  NN	    _	      2	      SB	    _	      _
+5	      .         --	    .	      $.	    _	      2	      --	    _	      _
+  </p_conll>
+  <p idx="2">
+    .
+  </p>
+    <p_conll idx="2">
+    </p_conll>
+  <h>
+    .
+  </h>
+  <h_conll>
+</h_conll>
+  <a></a>
+</problem>
+
+<problem>
+  id="43"
+  fracas_answer="yes">
+  <p idx="1">
+    Einige Vögel sind Schwäne.
+  </p>
+  <p_conll idx="1">
+  </p_conll>1	      Einige	  einiger	PRON	PIAT	    _	      2	      NK	    _	      _
+2	      Vögel	    vogel	  NOUN	NN	      _	      3	      SB	    _	      _
+3	      sind	    sein	  VERB	VAFIN	    _	      0	      --	    _	      _
+4	      Schwäne	  schwan	NOUN	NN	      _	      3	      PD	    _	      _
+5	      .	        --	    .	    $.	      _	      3 	    --	    _	      _
+  </p_conll>
+  <p idx="2">
+    .
+  </p>
+    <p_conll idx="2">
+    </p_conll>
+  <h>
+    .
+  </h>
+  <h_conll>
+</h_conll>
+  <a></a>
+</problem>
+
+<problem>
+  id="44"
+  fracas_answer="yes">
+  <p idx="1">
+    Eine Uhr ist keine Wanduhr.
+  </p>
+  <p_conll idx="1">
+  </p_conll>1	      Eine	    ein	    DET	  ART	      _	      2	      NK	    _	      _
+2	      Uhr	      uhr	    NOUN	NN	      _	      3	      SB	    _	      _
+3	      ist	      sein	  VERB	VAFIN	    _	      0	      --	    _	      _
+4	      keine	    kein	  PRON	PIAT	    _	      5	      NK	    _	      _
+5	      Wanduhr	  wanduhr	NOUN	NN	      _	      3	      PD	    _	      _
+6	      .	        --	    .	    $.	      _	      3	      --	    _	      _
+  </p_conll>
+  <p idx="2">
+    .
+  </p>
+    <p_conll idx="2">
+  </p_conll>
+  <h>
+    .
+  </h>
+  <h_conll>
+</h_conll>
+  <a></a>
+</problem>
+
+<problem>
+  id="45"
+  fracas_answer="yes">
+  <p idx="1">
+    Ein Hund beißt Peter nicht.
+  </p>
+  <p_conll idx="1">
+  </p_conll>1	      Ein	      ein	    DET	  ART	      _	      2	      NK	    _	      _
+2	      Hund	    hund	  NOUN	NN	      _	      3	      SB	    _	      _
+3	      beißt	    beißen	VERB	VVFIN	    _	      0	      --	    _	      _
+4	      Peter	    peter	  NOUN	NE	      _	      3	      OA	    _	      _
+5	      nicht	    nicht	  PRT	  PTKNEG	  _	      3	      NG    	_	      _
+6	      .	        --	    .	    $.	      _	      3	      --	    _	      _
+  </p_conll>
+  <p idx="2">
+    Bella ist ein Hund.
+  </p>
+    <p_conll idx="2">1       Bella   bella   NOUN    NE      _       2       SB      _       _
+2       ist     sein    VERB    VAFIN   _       0       --      _       _
+3       ein     ein     DET     ART     _       4       NK      _       _
+4       Hund    hund    NOUN    NN      _       2       PD      _       _
+5       .       --      .       $.      _       2       --      _       _
+    </p_conll>
+  <h>
+    Bella beißt Peter nicht.
+  </h>
+  <h_conll>1       Bella   bella   NOUN    NE      _       2       SB      _       _
+2       beißt     beißen	  VERB	  VVFIN	  _	      0	      --	    _	      _
+3       Peter     peter	    NOUN	  NE	    _	      4	      OA	    _	      _
+4       nicht    nicht	    PRT	    PTKNEG	_	      3	      NG	    _	      _
+5       .       --      .       $.      _       2       --      _       _
+</h_conll>
+  <a>yes</a>
+</problem>
+
+<problem>
+  id="46"
+  fracas_answer="yes">
+  <p idx="1">
+    Nicht jeder Mensch ist ein Grieche.
+  </p>
+  <p_conll idx="1">1	      Nicht	    nicht	  PRT	  PTKNEG	  _	      3     	NG	    _	      _
+2	      jeder	    jeder	  PRON	PIAT	    _	      3     	NK    	_	      _
+3	      Mensch	  mensch	NOUN	NN	      _	      4	      SB    	_	      _
+4	      ist	      sein	  VERB	VAFIN	    _	      0	      --	    _	      _
+5	      ein	      ein	    DET	  ART	      _	      6     	NK    	_     	_
+6	      Grieche	  grieche	NOUN	NN      	_	      4     	PD	    _     	_
+7	      .	        --	    .	    $.	      _	      4	      --    	_     	_
+  </p_conll>
+
+  <p idx="2">
+    .
+  </p>
+    <p_conll idx="2">
+    </p_conll>
+  <h>
+    .
+  </h>
+  <h_conll>
+</h_conll>
+  <a></a>
+</problem>
+
+<problem>
+  id="47"
+  fracas_answer="yes">
+  <p idx="1">
+    Ein Hase schenkt einem Igel eine Blume.
+  </p>
+  <p_conll idx="1">1	      Ein	      ein	      DET	  ART	    _	      2	      NK    	_	      _
+2	      Hase	    hase	    NOUN	NN	    _	      3	      SB	    _	      _
+3	      schenkt	  schenken	VERB	VVFIN	  _	      0	      --	    _	      _
+4	      einem	    ein	      DET	  ART   	_	      5	      NK	    _	      _
+5	      Igel	    igel	    NOUN	NN	    _	      3	      DA	    _	      _
+6	      eine	    ein	      DET	  ART	    _	      7	      NK	    _	      _
+7	      Blume	    blume	    NOUN	NN	    _	      3	      OA	    _	      _
+8	      .	        --	      .	    $.	    _	      3	      --	    _	      _
+  </p_conll>
+  
+  <p idx="2">
+    .
+  </p>
+    <p_conll idx="2">
+    </p_conll>
+  <h>
+    .
+  </h>
+  <h_conll>
+</h_conll>
+  <a></a>
+</problem>
+
+<problem>
+  id="48"
+  fracas_answer="yes">
+  <p idx="1">
+    Ein Hase schenkt einem Igel eine Blume und Heuschnupfen.
+  </p>
+  <p_conll idx="1">1	      Ein	          ein	          DET	  ART	      _	  2	      NK	    _	      _
+2	      Hase	        hase	        NOUN	NN	      _	  3	      SB	    _	      _
+3	      schenkt	      schenken	    VERB	VVFIN	    _	  0	      --	    _	      _
+4	      einem	        ein	          DET	  ART	      _	  5	      NK	    _	      _
+5	      Igel	        igel	        NOUN	NN	      _	  3	      DA	    _	      _
+6	      eine	        ein	          DET	  ART	      _	  7	      NK	    _	      _
+7	      Blume	        blume	        NOUN	NN	      _	  3     	OA	    _	      _
+8	      und	          und	          KON	  KON	      _	  7	      CD	    _     	_	
+9	      Heuschnupfen	heuschnupfen	NOUN	NN	      _	  3	      CJ	    _       _
+10	    .	            --	          .	    $.	      _	  3     	--    	_	      _
+  </p_conll>
+  
+  <p idx="2">
+    .
+  </p>
+    <p_conll idx="2">
+    </p_conll>
+  <h>
+    .
+  </h>
+  <h_conll>
+</h_conll>
+  <a></a>
+</problem>
+
+<problem>
+  id="49"
+  fracas_answer="yes">
+  <p idx="1">
+    Ein Lehrer lehrt Maria ein Musikstück.
+  </p>
+  <p_conll idx="1">1	      Ein	          ein	          DET	  ART	      _	  2	      NK	    _	      _
+2	      Lehrer	      lehrer	      NOUN	NN	      _	  3	      SB	    _	      _
+3	      lehrt	        lehren	      VERB	VVFIN	    _	  0	      --	    _	      _
+4	      Maria	        maria	        NOUN	NE	      _	  3	      OA    	_     	_
+5	      ein	          ein	          DET	  ART	      _	  6	      NK    	_	      _
+6	      Musikstück	  musikstück	  NOUN	NN	      _	  3	      OA2	    _	      _
+7	      .	            --	          .	    $.	      _	  3	      --	    _	      _
+  </p_conll>
+  </p_conll>
+  <p idx="2">
+    .
+  </p>
+    <p_conll idx="2">
+    </p_conll>
+  <h>
+    .
+  </h>
+  <h_conll>
+</h_conll>
+  <a></a>
+</problem>
+
+<problem>
+  id="50"
+  fracas_answer="yes">
+  <p idx="1">
+    Jeder Stift ist ein Lehrling.
+  </p>
+  <p_conll idx="1">1	      Jeder	    jeder	    PRON	  PIAT            _	  2	      NK	    _     	_
+2	      Stift	    stift	    NOUN	  NN	            _	  3	      SB	    _	      _
+3	      ist	      sein	    VERB	  VAFIN	          _	  0	      --	    _	      _
+4	      ein	      ein	      DET	    ART	            _ 	5	      NK	    _     	_
+5	      Lehrling	lehrling	NOUN	  NN	            _	  3	      PD	    _     	_
+6	      .	        --	      .	      $.	            _	  3	      --	    _     	_
+  </p_conll>
+  
+  <p idx="2">
+    .
+  </p>
+    <p_conll idx="2">
+    </p_conll>
+  <h>
+    .
+  </h>
+  <h_conll>
+</h_conll>
+  <a></a>
+</problem>
+
+</fracas-problems>
+
+<problem>
+  id="51"
+  fracas_answer="yes">
+  <p idx="1">
+    Kein Mensch zahlt eine Rechnung.
+  </p>
+  <p_conll idx="1">1	      Kein	    kein	    PRON	  PIAT	          _	  2	      NK	    _	      _
+2	      Mensch	  mensch	  NOUN	  NN	            _	  3	      SB	    _	      _
+3	      zahlt	    zahlen	  VERB    VVFIN         	_	  0	      --      _	      _
+4	      eine	    ein	      DET	    ART	            _	  5	      NK	    _	      _
+5	      Rechnung	rechnung	NOUN	  NN	            _	  3	      OA    	_	      _
+6	      .	        --	      .	      $.	            _	  3	      --	    _	      _
+  </p_conll>
+  
+  <p idx="2">
+    .
+  </p>
+    <p_conll idx="2">
+    </p_conll>
+  <h>
+    .
+  </h>
+  <h_conll>
+</h_conll>
+  <a></a>
+</problem>
+
+</fracas-problems>
+
+<problem>
+  id="52"
+  fracas_answer="yes">
+  <p idx="1">
+    Sirenen haben schuppige Beine.
+  </p>
+  <p_conll idx="1">1	      Sirenen	  sirene	  NOUN  	NN	            _	  2	      SB	    _	      _
+2	      haben	    haben	    VERB	  VAFIN	          _	  0	      --    	_	      _
+3	      schuppige	schuppig	ADJ	    ADJA	          _	  4	      NK    	_	      _
+4	      Beine	    bein	    NOUN	  NN	            _	  2	      OA	    _	      _
+5	      .	        --	      .	      $.            	_	  2	      --	    _	      _
+  </p_conll>
+  
+  <p idx="2">
+    .
+  </p>
+    <p_conll idx="2">
+    </p_conll>
+  <h>
+    .
+  </h>
+  <h_conll>
+</h_conll>
+  <a></a>
+</problem>
+
+</fracas-problems>
+
+<problem>
+  id="53"
+  fracas_answer="yes">
+  <p idx="1">
+    Sirenen haben ein schuppiges Bein.
+  </p>
+  <p_conll idx="1">1	      Sirenen	    sirene	  NOUN	NN	            _	  2	      SB      _	      _
+2	      haben	      haben	    VERB	VAFIN	          _	  0	      --    	_     	_
+3	      ein	        ein	      DET	  ART	            _	  5	      NK    	_	      _
+4	      schuppiges	schuppig	ADJ	  ADJA	          _	  5	      NK    	_     	_
+5	      Bein	      bein	    NOUN	NN	            _	  2	      OA    	_	      _
+6	      .	          --	      .	    $.	            _	  2	      --    	_     	_
+  </p_conll>
+  
+  <p idx="2">
+    .
+  </p>
+    <p_conll idx="2">
+    </p_conll>
+  <h>
+    .
+  </h>
+  <h_conll>
+</h_conll>
+  <a></a>
+</problem>
+
+</fracas-problems>
+
+<problem>
+  id="54"
+  fracas_answer="yes">
+  <p idx="1">
+    Eine schnelle Jägerin erzürnt Plexippos.
+  </p>
+  <p_conll idx="1">1	      Eine	      ein	      DET	  ART	            _	  3	      NK	    _	      _
+2	      schnelle	  schnell	  ADJ	  ADJA	          _	  3	      NK    	_	      _
+3	      Jägerin	    jägerin	  NOUN	NN	            _	  4	      SB	    _	      _
+4	      erzürnt	    erzürnen	VERB	VVFIN	          _	  0	      --    	_	      _
+5	      Plexippos	  plexippos	NOUN	NE  	          _	  4	      OA	    _       _
+6	      .	          --	      .	    $.	            _	  4	      --	    _       _
+  </p_conll>
+  
+  <p idx="2">
+    .
+  </p>
+    <p_conll idx="2">
+    </p_conll>
+  <h>
+    .
+  </h>
+  <h_conll>
+</h_conll>
+  <a></a>
+</problem>
+
+</fracas-problems>
+
+<problem>
+  id="55"
+  fracas_answer="yes">
+  <p idx="1">
+    Ein Haus in Russland brennt.
+  </p>
+  <p_conll idx="1">1	      Ein	        ein	      DET	  ART	            _	  2	      NK	    _	      _
+2	      Haus	      haus	    NOUN	NN	            _	  5	      SB	    _	      _
+3	      in	        in	      ADP	  APPR	          _	  2	      MNR     _	      _
+4	      Russland	  russland	NOUN	NE	            _	  3	      NK	    _	      _
+5	      brennt	    brennen	  VERB	VVFIN	          _	  0	      --	    _	      _
+6	      .	          --	      .	    $.	            _	  5	      --	    _	      _
+  </p_conll>
+  
+  <p idx="2">
+    .
+  </p>
+    <p_conll idx="2">
+    </p_conll>
+  <h>
+    .
+  </h>
+  <h_conll>
+</h_conll>
+  <a></a>
+</problem>
+
+</fracas-problems>
+
+<problem>
+  id="56"
+  fracas_answer="yes">
+  <p idx="1">
+    Donald genießt einen schönen Tag in einer weichen Hängematte.
+  </p>
+  <p_conll idx="1">1	      Donald	    donald	    NOUN	NE	          _	  2	      SB	    _	      _
+2	      genießt	    genießen	  VERB	VVFIN	        _	  0	      --	    _	      _
+3	      einen	      ein	        DET	  ART	          _	  5	      NK	    _	      _
+4	      schönen	    schön	      ADJ	  ADJA	        _	  5	      NK	    _	      _
+5	      Tag	        tag	        NOUN	NN	          _	  2	      OA	    _	      _
+6	      in	        in	        ADP	  APPR	        _	  5	      MNR	    _	      _
+7	      einer	      ein	        DET	  ART           _	  9	      NK	    _	      _
+8	      weichen	    weich	      ADJ	  ADJA	        _	  9	      NK	    _       _
+9	      Hängematte	hängematte	NOUN	NN	          _ 	6	      NK	    _	      _
+10	    .	          --	        .	    $.	          _	  2	      --	    _	      _
+  </p_conll>
+  
+  <p idx="2">
+    .
+  </p>
+    <p_conll idx="2">
+    </p_conll>
+  <h>
+    Bella beißt Peter nicht.
+  </h>
+  <h_conll>
+</h_conll>
+  <a></a>
+</problem>
+
+</fracas-problems>
+
+<problem>
+  id="57"
+  fracas_answer="yes">
+  <p idx="1">
+    Eine Furie in einem blutigen Kleid bewacht einen Schlund.
+  </p>
+  <p_conll idx="1">1	      Eine	    ein	      DET	  ART	              _	  2	      NK	    _	      _
+2	      Furie	    furie	    NOUN	NN	              _	  7	      SB	    _	      _
+3	      in  	    in	      ADP	  APPR	            _	  2	      MNR	    _	      _
+4	      einem	    ein	      DET	  ART	              _	  6	      NK	    _	      _
+5	      blutigen	blutig	  ADJ	  ADJA	            _	  6	      NK	    _	      _
+6	      Kleid	    kleid	    NOUN	NN	              _	  3	      NK	    _	      _
+7	      bewacht	  bewachen	VERB	VVFIN	            _	  0	      --	    _	      _
+8	      einen	    ein	      DET	  ART	              _	  9	      NK	    _	      _
+9	      Schlund	  schlund	  NOUN	NN	              _	  7	      OA	    _	      _
+10	    .	        --	      .	    $.	              _	  2	      --	    _	      _
+  </p_conll>
+  
+  <p idx="2">
+    .
+  </p>
+    <p_conll idx="2">
+    </p_conll>
+  <h>
+    .
+  </h>
+  <h_conll>
+</h_conll>
+  <a></a>
+</problem>
+
+</fracas-problems>
+
+<problem>
+  id="58"
+  fracas_answer="yes">
+  <p idx="1">
+    Maria singt und Peter tanzt.
+  </p>
+  <p_conll idx="1">1	      Maria	    maria	  NOUN	NE	                _	  2	      SB	    _ 	    _
+2	      singt	    singen	VERB	VVFIN	              _	  0	      ROOT	  _	      _
+3	      und	      und	    KON	  KON	                _	  2	      CD	    _	      _
+4	      Peter	    peter	  NOUN	NE	                _	  5	      SB	    _	      _
+5	      tanzt	    tanzen	VERB	VVFIN	              _	  3	      CJ	    _	      _
+6       .	        --	    .	    $.	                _	  3	      PUNC	  _	      _
+  </p_conll>
+  
+  <p idx="2">
+    .
+  </p>
+    <p_conll idx="2">
+    </p_conll>
+  <h>
+    .
+  </h>
+  <h_conll>
+</h_conll>
+  <a></a>
+</problem>
+
+</fracas-problems>
+
+<problem>
+  id="59"
+  fracas_answer="yes">
+  <p idx="1">
+    Eine Taube beisst Peter Mueller.
+  </p>
+  <p_conll idx="1">1	      Eine	    ein	    DET	  ART	                _	  2	      NK	    _	      _
+2	      Taube	    Taube	  NOUN	NN	                _	  3	      SB	    _	      _
+3	      beisst	  beissen	VERB	VVFIN	              _	  0	      ROOT	  _	      _
+4	      Peter	    Peter	  NOUN	NE	                _	  5	      PNC	    _	      _
+5	      Mueller   Mueller NOUN	NE	                _	  3	      OA	    _	      _
+7	      .	        --	    .	    $.	                _	  3	      PUNC	  _	      _
+  </p_conll>
+  
+  <p idx="2">
+    .
+  </p>
+    <p_conll idx="2">
+    </p_conll>
+  <h>
+    .
+  </h>
+  <h_conll>
+</h_conll>
+  <a></a>
+</problem>
+
+</fracas-problems>
+
+<problem>
+  id="60"
+  fracas_answer="yes">
+  <p idx="1">
+    Eine Taube beisst Peter.
+  </p>
+  <p_conll idx="1">1	      Eine	    ein	    DET	  ART	                _	  2	      NK	    _	      _
+2	      Taube	    Taube	  NOUN	NN	                _	  3	      SB	    _	      _
+3	      beißt	    beißen	VERB	VVFIN	              _	  0	      ROOT	  _	      _
+4	      Peter	    Peter	  NOUN	NE	                _	  3	      OA	    _	      _
+5	      .	        --	    .	    $.	                _	  3	      PUNC	  _	      _
+  </p_conll>
+  
+  <p idx="2">
+    .
+  </p>
+    <p_conll idx="2">
+    </p_conll>
+  <h>
+    .
+  </h>
+  <h_conll>
+</h_conll>
+  <a></a>
+</problem>
+
 </fracas-problems>
